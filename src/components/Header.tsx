@@ -32,12 +32,3 @@ const Header = () => {
 
 export default Header
 
-export const Header2 =()=>{
-    return(
-        <div>
-   
- 
-        </div>
-    )
-
-}

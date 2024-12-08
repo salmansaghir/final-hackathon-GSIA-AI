@@ -50,7 +50,7 @@ const page = () => {
       
       <div className="flex justify-center">
       <IoIosArrowForward /> 
-      
+
        
       </div>
     </div>
@@ -58,6 +58,9 @@ const page = () => {
 </section>
 
         </div>
+        </div>
+        <div>
+            
         </div>
     </div>
   )

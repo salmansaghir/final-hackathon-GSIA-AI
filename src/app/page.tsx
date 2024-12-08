@@ -1,5 +1,5 @@
-import Image from "next/image";
-import Header ,{Header2} from "@/components/Header";
+
+import Header  from "@/components/Header";
 import Footer from "@/components/Footer";
 import Hero from"@/components/Hero";
 import Content,{Content2,Content3,Content4,Content5} from "@/components/Content";
