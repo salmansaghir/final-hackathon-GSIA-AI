@@ -8,7 +8,7 @@ import Products from '@/components/Shop/Products';
 import Footer from '@/components/Footer';
 
 const page= () => {
-  const imgUrl='/image/sofa.png';
+
   return (
     <div>
         <Header2/>
