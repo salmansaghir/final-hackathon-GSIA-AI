@@ -37,4 +37,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 vercel deployment link
 
-https://final-hackathon-gsia-boi2dekms-salmans-projects-9ec711d3.vercel.app/
+https://final-hackathon-gsia-2xb46ingn-salmans-projects-9ec711d3.vercel.app/
