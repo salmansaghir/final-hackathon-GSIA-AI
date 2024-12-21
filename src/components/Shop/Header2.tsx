@@ -8,15 +8,15 @@ import Link from 'next/link';
 import { HiMenuAlt3, HiX } from "react-icons/hi"; // Hamburger and close icons
 import { useState } from "react";
 
-const Header = () => {
+const Header2 = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
      <div>
-      <header className="text-[#000000] bg-[#FBEBB5] shadow-md pt-3 pl-4">
-      <div className="container mx-auto flex flex-wrap p-5 items-center justify-between">
+      <header className="text-[#000000] bg-white shadow-md">
+      <div className="container mx-auto flex flex-wrap p-5 items-center justify-between ">
         {/* Logo */}
         <Link href="/" className="text-2xl font-bold text-[#000000]">
-        
+        <img src="/image/House_logos.png" alt="logo" width={50} height={50} />
         </Link>
 
         {/* Mobile Menu Toggle */}
@@ -55,7 +55,7 @@ const Header = () => {
         </nav>
 
         {/* Icon Section */}
-        <div className="hidden md:flex items-center gap-6">
+        <div className="flex items-center gap-6">
           <CiUser
             className="w-[24px] h-[24px] text-[#000000]"
             aria-label="User"
@@ -81,5 +81,5 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header2
 
