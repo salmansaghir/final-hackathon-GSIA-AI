@@ -6,20 +6,22 @@ import Common from '@/components/Shop/Common';
 import Filter from '@/components/Shop/Filter';
 import Products from '@/components/Shop/Products';
 import Footer from '@/components/Footer';
+import Delivery from'@/components/Shop/Delivery';
 
-const page= () => {
+function page() {
 
   return (
     <div>
-        <Header2/>
-        <Common title='Shop' subtitle='Shop' />
-        <Filter/>
-        <Products/>
-        <Footer/>
-      
-        
+      <Header2 />
+      <Common title='Shop' subtitle='Shop' />
+      <Filter />
+      <Products />
+      <Delivery />
+      <Footer />
+
+
     </div>
-  )
+  );
 }
 
 export default page

@@ -56,10 +56,10 @@ const Header = () => {
 
         {/* Icon Section */}
         <div className="hidden md:flex items-center gap-6">
-          <CiUser
+          <Link href='/myaccount'><CiUser
             className="w-[24px] h-[24px] text-[#000000]"
             aria-label="User"
-          />
+          /></Link>
           <CiHeart
             className="w-[24px] h-[24px] text-[#000000]"
             aria-label="Favorites"
@@ -68,10 +68,10 @@ const Header = () => {
             className="w-[24px] h-[24px] text-[#000000]"
             aria-label="Search"
           />
-          <IoCartOutline
+          <Link href='/cart'><IoCartOutline
             className="w-[24px] h-[24px] text-[#000000]"
             aria-label="Cart"
-          />
+          /></Link>
         </div>
       </div>
     </header>

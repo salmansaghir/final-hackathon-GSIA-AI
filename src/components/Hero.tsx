@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Hero = () => {
   return (
@@ -13,9 +14,9 @@ const Hero = () => {
       </h1>
      
       <div className="flex justify-center">
-        <button className="inline-flex text-[#000000] border-0 py-2 px-6 focus:outline-none hover:bg-[#FBEBB5] rounded text-lg underline">
+        <Link href={'/shop'}><button className="inline-flex text-[#000000] border-0 py-2 px-6 focus:outline-none hover:bg-[#FBEBB5] rounded text-lg underline">
         Shop Now
-        </button>
+        </button></Link>
         
       </div>
     </div>
