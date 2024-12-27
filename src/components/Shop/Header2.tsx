@@ -17,7 +17,7 @@ const Header2 = () => {
       <div className="container mx-auto flex flex-wrap p-5 items-center justify-between ">
         {/* Logo */}
         <Link href="/" className="text-2xl font-bold text-[#000000]">
-        <Image src="/image/House_logos.png" alt="logo" width={50} height={50} />
+        <Image src="/image/House_Logos.png" alt="logo" width={50} height={50} />
         </Link>
 
         {/* Mobile Menu Toggle */}
