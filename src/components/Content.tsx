@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function Content() {
   return (
@@ -9,10 +10,12 @@ function Content() {
     <div className="flex flex-wrap ">
       <div className="md:w-1/2 p-4">
         <div className="">
-          <img
+          <Image
             className="h-80  object-cover object-center "
             src="/image/table.png"
             alt="content"
+            width={400}
+            height={400}
           />
          
          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
@@ -25,10 +28,12 @@ function Content() {
       </div>
       <div className="md:w-1/2 p-4">
         <div className="">
-          <img
+          <Image
             className="h-80 rounded object-cover object-center mb-6"
             src="/image/sofa.png"
             alt="content"
+            width={500}
+            height={500}
           />
           
           <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
@@ -70,10 +75,12 @@ export const Content2=()=>{
     <div className="flex flex-wrap -m-4">
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className=" p-6 rounded-lg">
-          <img
+          <Image
             className="h-40 rounded w-full object-cover object-center mb-6"
             src="/image/sofa_1.png"
             alt="content"
+            width={500}
+            height={500}
           />
           
           <p className="leading-relaxed text-base">
@@ -86,10 +93,12 @@ export const Content2=()=>{
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className=" p-6 rounded-lg">
-          <img
+          <Image
             className="h-40 rounded w-full object-cover object-center mb-6"
             src="/image/dining_table.png"
             alt="content"
+            width={500}
+            height={500}
           />
           
           <p className="leading-relaxed text-base">
@@ -102,10 +111,12 @@ export const Content2=()=>{
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className=" p-6 rounded-lg">
-          <img
+          <Image
             className="h-40 rounded w-full object-cover object-center mb-6"
             src="/image/bar_table.png"
             alt="content"
+            width={500}
+            height={500}
           />
           
           <p className="leading-relaxed text-base">
@@ -118,10 +129,12 @@ export const Content2=()=>{
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className=" p-6 rounded-lg">
-          <img
+          <Image
             className="h-40 rounded w-full object-cover object-center mb-6"
             src="/image/mirror.png"
             alt="content"
+            width={500}
+            height={500}
           />
           
          
@@ -151,10 +164,12 @@ export const Content3=()=>{
             <section className="text-gray-600 body-font">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-      <img
+      <Image
         className="object-cover object-center rounded"
         alt="hero"
         src="/image/sofa_2.png"
+        width={500}
+            height={500}
       />
     </div>
     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
@@ -200,10 +215,12 @@ export const Content4=()=>{
     <div className="flex flex-wrap -m-4">
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img
+          <Image
             className="lg:h-48 md:h-36 w-full object-cover object-center"
             src="/image/Rectangle1.png"
             alt="blog"
+            width={500}
+            height={500}
           />
           <div className="p-6">
            
@@ -262,10 +279,12 @@ export const Content4=()=>{
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img
+          <Image
             className="lg:h-48 md:h-36 w-full object-cover object-center"
             src="/image/Rectangle_2.png"
             alt="blog"
+            width={500}
+            height={500}
           />
           <div className="p-6">
           
@@ -323,10 +342,12 @@ export const Content4=()=>{
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <img
+          <Image
             className="lg:h-48 md:h-36 w-full object-cover object-center"
             src="/image/Rectangle_3.png"
             alt="blog"
+            width={500}
+            height={500}
           />
           <div className="p-6">
            

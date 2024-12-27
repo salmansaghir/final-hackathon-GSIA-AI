@@ -7,6 +7,7 @@ import { IoCartOutline } from "react-icons/io5";
 import Link from 'next/link';
 import { HiMenuAlt3, HiX } from "react-icons/hi"; // Hamburger and close icons
 import { useState } from "react";
+import Image from 'next/image';
 
 const Header2 = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,7 +17,7 @@ const Header2 = () => {
       <div className="container mx-auto flex flex-wrap p-5 items-center justify-between ">
         {/* Logo */}
         <Link href="/" className="text-2xl font-bold text-[#000000]">
-        <img src="/image/House_logos.png" alt="logo" width={50} height={50} />
+        <Image src="/image/House_logos.png" alt="logo" width={50} height={50} />
         </Link>
 
         {/* Mobile Menu Toggle */}

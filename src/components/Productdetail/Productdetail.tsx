@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 interface Data{
     id:number,
     img:string,
@@ -43,10 +44,12 @@ const Productdetail = () => {
         <div className="container px-5 py-24 mx-auto">
             <div className="lg:w-4/5 mx-auto flex flex-col lg:flex-row">
                 {/* Product Image */}
-                <img
+                <Image
                     alt="ecommerce"
                     className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded mb-6 lg:mb-0"
                     src="/image/sofa_2.png"
+                    width={500}
+                    height={500}
                 />
                 {/* Product Info */}
                 <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6">
@@ -116,7 +119,7 @@ const Productdetail = () => {
         <div className="flex flex-wrap justify-center gap-6 px-5 pt-5">
             {data.map((item) => (
                 <div key={item.id} className="w-[76px] h-[80px] bg-[#FFF9E5] flex justify-center items-center">
-                    <img src={item.img} alt="sofa" width={78} height={40} className="mt-5" />
+                    <Image src={item.img} alt="sofa" width={78} height={40} className="mt-5" />
                 </div>
             ))}
         </div>

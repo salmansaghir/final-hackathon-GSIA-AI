@@ -3,6 +3,7 @@ import { FaUser } from "react-icons/fa";
 import { IoCalendarClear } from "react-icons/io5";
 import { TbTagFilled } from "react-icons/tb";
 import { CiSearch } from "react-icons/ci";
+import Image from 'next/image';
 
 
 const Blog = () => {
@@ -32,10 +33,12 @@ const Blog = () => {
         },
       ].map((item, idx) => (
         <div key={idx} className="bg-white rounded-lg shadow-md p-4">
-          <img
+          <Image
             src={item.img}
             alt="blogimage"
             className="w-full rounded-lg"
+            width={500}
+            height={100}
           />
           <div className="flex items-center text-gray-400 gap-2 mt-4">
             <FaUser />
@@ -102,37 +105,40 @@ const Blog = () => {
         <div className="flex flex-col gap-4">
           {[
             {
-              img: 'image/blog_5.png',
+              img: '/image/blog_5.png',
               title: 'Going all-in with millennial design',
               date: '03 Aug 2022',
             },
             {
-              img: 'image/bog_4.png',
+              img: '/image/bog_4.png',
               title: 'Exploring new ways of decorating',
               date: '03 Aug 2022',
             },
             {
-              img: 'image/blog_3.png',
+              img: '/image/blog_3.png',
               title: 'Handmade pieces that took time to make',
               date: '03 Aug 2022',
             },
             {
-                img: 'image/blog_2.png',
+                img: '/image/blog_2.png',
                 title: 'Modern home in Milan',
                 date: '03 Aug 2022',
               },
               {
-                img: 'image/blog_1.png',
+                img: '/image/blog_1.png',
                 title: 'Colourful office redesign',
                 date: '03 Aug 2022',
               },
             
           ].map((item, idx) => (
             <div key={idx} className="flex gap-4 items-center">
-              <img
+              <Image
                 src={item.img}
                 alt="recent-post"
                 className="w-16 h-16 rounded-lg"
+                width={100}
+                height={100}
+                
               />
               <div>
                 <p className="font-Poppins text-[14px]">{item.title}</p>

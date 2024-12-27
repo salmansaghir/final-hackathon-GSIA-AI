@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Relatedproduct = () => {
   return (
@@ -13,10 +14,12 @@ const Relatedproduct = () => {
     <div className="flex flex-wrap -m-4">
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className=" p-6 rounded-lg">
-          <img
+          <Image
             className="h-40 rounded w-full object-cover object-center mb-6"
             src="/image/sofa_1.png"
             alt="content"
+            width={500}
+            height={500}
           />
           
           <p className="leading-relaxed text-base">
@@ -29,10 +32,12 @@ const Relatedproduct = () => {
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className=" p-6 rounded-lg">
-          <img
+          <Image
             className="h-40 rounded w-full object-cover object-center mb-6"
             src="/image/dining_table.png"
             alt="content"
+            width={500}
+            height={500}
           />
           
           <p className="leading-relaxed text-base">
@@ -45,10 +50,12 @@ const Relatedproduct = () => {
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className=" p-6 rounded-lg">
-          <img
+          <Image
             className="h-40 rounded w-full object-cover object-center mb-6"
             src="/image/bar_table.png"
             alt="content"
+            width={500}
+            height={500}
           />
           
           <p className="leading-relaxed text-base">
@@ -61,10 +68,12 @@ const Relatedproduct = () => {
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className=" p-6 rounded-lg">
-          <img
+          <Image
             className="h-40 rounded w-full object-cover object-center mb-6"
             src="/image/mirror.png"
             alt="content"
+            width={500}
+            height={500}
           />
           
          

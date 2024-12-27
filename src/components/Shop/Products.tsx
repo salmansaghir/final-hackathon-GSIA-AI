@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 // interface Data{
 //     id:number;
@@ -75,10 +76,12 @@ const Products = () => {
       ].map((item, idx) => (
         <div key={idx} className="p-4">
           <div className="p-6 rounded-lg shadow-md bg-white">
-            <img
+            <Image
               className="h-40 rounded w-full object-contain mb-4"
               src={item.img}
               alt="content"
+              height={500}
+              width={500}
             />
             <p className="leading-relaxed text-base">{item.title}</p>
             <p className="text-lg text-gray-900 font-medium">{item.price}</p>

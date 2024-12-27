@@ -25,7 +25,7 @@ const Cart = () => {
   const [cartItems, setCartItems] = useState(initialItems);
 
   // Function to update quantity
-  const updateQuantity = (id:any, quantity:any) => {
+  const updateQuantity = (id:number, quantity:number) => {
     if (quantity < 1) return; // Avoid negative quantities
     setCartItems((prevItems) =>
       prevItems.map((item) =>
@@ -35,7 +35,7 @@ const Cart = () => {
   };
 
   // Function to remove item from cart
-  const removeItem = (id:any) => {
+  const removeItem = (id:number) => {
     setCartItems((prevItems) => prevItems.filter((item) => item.id !== id));
   };
 
